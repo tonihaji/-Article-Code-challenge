@@ -22,3 +22,7 @@ class Article
 
 end
 
+article = Article.new("Salim Mburia", "The Nairobians", "The Political Article Ever")
+puts article.author
+puts article.magazine
+puts article.title

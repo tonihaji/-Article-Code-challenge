@@ -30,3 +30,5 @@ class Author
       self.magazines.map {|magazine| magazine.category}.uniq
   end
 end
+author = Author.new("Salim Mburia")
+puts author.name

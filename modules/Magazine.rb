@@ -30,3 +30,10 @@ class Magazine
 
 
 end
+
+magazine1 = Magazine.new("Magazine A", "Category A")
+magazine2 = Magazine.new("Magazine B", "Category B")
+magazine3 = Magazine.new("Magazine C", "Category C")
+
+puts "Magazine name: #{magazine1.name}"
+puts "Magazine Category: #{magazine1.category}"
