@@ -1,4 +1,4 @@
-Object Relations without AR : Article Code challenge
+## Object Relations without AR : Article Code challenge
 Introduction
 For this assignment, you will be working with a Magazine domain.
 
@@ -16,9 +16,9 @@ Author - Magazine is a many to many relationship.
 
  
 
-Note: You should draw your domain on paper or on a whiteboard before you start coding. Remember to identify a single source of truth for your data.
+## Note: You should draw your domain on paper or on a whiteboard before you start coding. Remember to identify a single source of truth for your data.
 
-Topics
+## Topics
 Classes and Instances
 Class and Instance Methods
 Variable Scope
@@ -27,7 +27,7 @@ Arrays and Array Methods
 Project Setup
 Once you have the plan in place for the application you want to build take the following steps:
 
-Create a new project folder
+## Create a new project folder
 Create a new GitHub repository (NB: ENSURE IT IS PRIVATE).
 Add your TM as a contributor to the project. (This is only for grading purposes. We promise we won't steal your code)
 Please make sure you regularly commit to the repository.
@@ -84,7 +84,7 @@ Article.all
 Returns an array of all Article instances
  
 
-Object Relationship Methods
+## Object Relationship Methods
 Article
 Article#author
 Returns the author for that given article
@@ -100,7 +100,7 @@ Magazine#contributors
 Returns an array of Author instances who have written for this magazine
  
 
-Associations and Aggregate Methods
+## Associations and Aggregate Methods
 Author
 Author#add_article(magazine, title)
 Given a magazine (as Magazine instance) and a title (as a string), creates a new Article instance and associates it with that author and that magazine.
