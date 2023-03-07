@@ -6,7 +6,7 @@ For this assignment, you will be working with a Magazine domain.
 
 We have three models: Author, Article, and Magazine.
 
- 
+## vedeo demo:"https://drive.google.com/file/d/19O_lKwWIafyI4a2gOdZkJUQjBpTM7TH8/view" 
 
 For our purposes, an Author has many Articles, a Magazine has many Articles, and Articles belong to both Author and Magazine.
 
